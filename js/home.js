@@ -4,4 +4,13 @@
 
 var vm=new Vue({
 
+    el:'#app',
+    data:{
+        message:"郏俊龙",
+    },
+    methods:{
+        init:function () {
+            console.info("jia junl")
+        }
+    },
 });
